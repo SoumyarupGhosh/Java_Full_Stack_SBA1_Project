@@ -10,6 +10,30 @@
 	<!-- write html code to read the application number and send to usercontrollers'
              displaystatus method for displaying the information
 	-->
+	
+	
+	<jsp:include page="header.jsp" />
+	<hr />
+	<div align=center>
+		<h2>Loan Status</h2>
+		<hr />
+		<a href="userhome1.jsp">Home</a>
+		<hr />
+		<form action="user" method="post">
+			<div>
+				<label for="applno">Application Number:</label> <input
+					type="text" id="applno" name="applno" required>
+			</div>
+			<br />
+			<input id="action" name="action" type="hidden"
+				value="displaystatus">
+			<div>
+				<button>Status</button>
+			</div>
+		</form>
+	</div>
+	<hr />
+	<jsp:include page="footer.jsp" />
 
 </body>
 </html>

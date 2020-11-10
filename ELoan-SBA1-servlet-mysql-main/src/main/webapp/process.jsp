@@ -11,6 +11,29 @@
 	     callemi method to calculate the emi and other details also provide links
 	     to logout and admin home page
 	-->
+	
+	<jsp:include page="header.jsp" />
+	<hr />
+	<div align=center>
+		<h2>Loan Details</h2>
+		<hr />
+		<a href="adminhome1.jsp">Home</a>
+		<hr />
+		<form action="admin" method="post">
+			<div>
+				<label for="applno">Application Number:</label> <input
+					type="text" id="applno" name="applno" required>
+			</div>
+			<br />
+			<input id="action" name="action" type="hidden"
+				value="process">
+			<div>
+				<button>Loan Application</button>
+			</div>
+		</form>
+	</div>
+	<hr />
+	<jsp:include page="footer.jsp" />
 
 </body>
 </html>

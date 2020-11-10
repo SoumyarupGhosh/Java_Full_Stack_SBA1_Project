@@ -118,6 +118,8 @@ private ConnectionDao connDao;
 		// TODO Auto-generated method stub
 	/* write the code to place the loan information */
 		
+        
+		
 		return null;
 	}
 	private String application1(HttpServletRequest request, HttpServletResponse response) {
@@ -130,7 +132,8 @@ private ConnectionDao connDao;
 		// TODO Auto-generated method stub
 		/* write the code to edit the loan info */
 		
-		return null;
+		
+		return "editloanui.jsp";
 	}
 	private String registerUser(HttpServletRequest request, HttpServletResponse response) throws SQLException {
 		// TODO Auto-generated method stub

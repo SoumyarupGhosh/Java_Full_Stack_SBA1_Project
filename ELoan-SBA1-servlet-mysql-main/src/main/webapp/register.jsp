@@ -10,8 +10,7 @@
 <jsp:include page="header.jsp"/>
 <hr/>
 <div align=center>
-<div>
-	<h2>Resister New User</h2>
+	<h2>eLoan Login</h2>
 	<form action="registerNewUser" method="post">
 		<div>
 			<div><label for="loginid">Enter login Id</label> </div>
@@ -24,7 +23,7 @@
 		<div>
 			<div><input type="submit" value="Login"> </div>
 		</div>
-		<a action="user?action=registerNewUser">Register here</a>
+		<a action="user?action=registerNewUser">New User? register here</a>
 	</form>
 	</div>
 	</div>
